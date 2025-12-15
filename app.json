@@ -15,37 +15,45 @@
         "ITSAppUsesNonExemptEncryption": false
       }
     },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false,
-      "package": "com.ankushh_19.athayushapp"
-    },
-    "web": {
-      "output": "static",
-      "favicon": "./assets/logo-athayush.png"
-    },
-    "plugins": [
-      "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/logo-athayush.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff",
-          "dark": {
-            "backgroundColor": "#000000"
-          }
-        }
-      ]
-    ],
-    "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
-    },
+    "edgeToEdgeEnabled": true,
+    "predictiveBackGestureEnabled": false,
+    "package": "com.ankushh_19.athayushapp",
     "extra": {
-      "router": {},
       "eas": {
         "projectId": "7f557e6f-273a-4322-be8e-a9a47513da07"
       }
+    },
+    "android": {
+      "package": "com.ankushh19.athayushapp"
+    }
+  },
+  "web": {
+    "output": "static",
+    "favicon": "./assets/logo-athayush.png"
+  },
+  "plugins": [
+    "expo-router",
+    [
+      "expo-splash-screen",
+      {
+        "image": "./assets/logo-athayush.png",
+        "imageWidth": 200,
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff",
+        "dark": {
+          "backgroundColor": "#000000"
+        }
+      }
+    ]
+  ],
+  "experiments": {
+    "typedRoutes": true,
+    "reactCompiler": true
+  },
+  "extra": {
+    "router": {},
+    "eas": {
+      "projectId": "7f557e6f-273a-4322-be8e-a9a47513da07"
     }
   }
+}
