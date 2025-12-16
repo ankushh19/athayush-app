@@ -5,7 +5,7 @@ import { WebView } from "react-native-webview"
 
 const ATHAYUSH_URL = "https://www.athayush.app/"
 
-export default function App() {
+export default function HomeScreen() {
     return (
         <SafeAreaView>
             <StatusBar style="dark" />
